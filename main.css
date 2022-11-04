@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, white, #00e7f7);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000000;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+}
+.header .logo{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    /* font-family: serif; */
+}
+
+
+
+.header .toggle img{
+    max-width: 90px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.input {
+    flex: 1 1 40%;
+    margin: 15px;
+    appearance: none;
+    background: none;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.input:focus {
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer .sci
+{
+    position: relative;
+    display: flex;
+}
+.footer .sci li{
+    list-style: none;
+}
+.footer .sci li a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+.footer .sci li a img{
+    filter: invert(1);
+    max-width: 40px;
+    
+}
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    min-height: 30px;
+    padding: 20px auto;
+    margin: 0;
+    background:  linear-gradient(to bottom, #00e7f7,white);
+    text-align: center;
+   
+}
+.footer p{
+    color: black;
+    margin: 5px auto;
+    padding: 5px auto;
+    /* font-family: 'Dancing Script', cursive; */
+
+}
+
+
+
+
+
+@media(max-width: 767px){
+
+
+    .footer{
+        padding: 10px;
+        width: 95%;
+    }
+
+
+}
